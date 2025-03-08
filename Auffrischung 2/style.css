@@ -1,13 +1,43 @@
-.Info_container{
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+.form_container{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 700px;
+    width: 1200px;
+    padding: 20px;
+}
+.headline{
+    font-size: 2rem;
     display: flex;
     justify-content: center;
+    text-shadow: 10px 10px 10px #222;
+}
+
+.Info_container{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Info_container input{
+    width: 250px;
+    padding: 10px;
     border: 2px solid #333;
     border-radius: 20px;
     background-color: #2f2f2f31;
+    text-align: center;
 }
 
 /* Das Styling für den nächsten Abschnitt */
@@ -16,8 +46,6 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    border: 1px solid #333;
-    border-radius: 20px;
 }
 
 /* Neues Styling für den Neuen Abschnitt */
